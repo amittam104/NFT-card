@@ -12,14 +12,20 @@
     <link href="./output.css" rel="stylesheet" />
     <title>NFT preview card component</title>
   </head>
-  <body class="bg-[#0d192b] flex items-center justify-center h-screen">
+  <body class="bg-[#0d192b] h-screen flex flex-col items-center justify-center">
     <div>
-      <div class="bg-[#14253d] text-white">
+      <div
+        class="lg:max-w-[30rem] max-w-[30rem] bg-[#14253d] text-white p-8 flex flex-col gap-8 rounded-3xl"
+      >
         <div>
-          <img src="./images/image-equilibrium.jpg" alt="NFT image" />
+          <img
+            class="rounded-3xl"
+            src="./images/image-equilibrium.jpg"
+            alt="NFT image"
+          />
         </div>
         <div>
-          <h1>Equilibrium #3429</h1>
+          <h1 class="text-3xl font-bold mb-6">Equilibrium #3429</h1>
           <p>Our Equilibrium collection promotes balance and calm.</p>
           <div>0.041 ETH 3 days left</div>
           <div>Creation of Jules Wyvern</div>
