@@ -602,6 +602,10 @@ video {
   max-height: 100%;
 }
 
+.max-h-\[70rem\] {
+  max-height: 70rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
