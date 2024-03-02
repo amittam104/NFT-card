@@ -15,17 +15,42 @@
   <body class="bg-[#0d192b] h-screen flex flex-col items-center justify-center">
     <div>
       <div
-        class="lg:max-w-[30rem] max-w-[30rem] bg-[#14253d] text-white p-8 flex flex-col gap-8 rounded-3xl"
+        class="lg:max-w-[30rem] max-w-[30rem] bg-[#14253d] text-white p-8 flex flex-col gap-8 rounded-3xl shadow-[0_25px_15px_30px_rgba(0,0,0,0.1)]"
       >
-        <div>
-          <img
-            class="rounded-3xl"
-            src="./images/image-equilibrium.jpg"
-            alt="NFT image"
-          />
+        <div class="group rounded-3xl relative cursor-pointer">
+          <div class="relative">
+            <img
+              class="rounded-3xl"
+              src="./images/image-equilibrium.jpg"
+              alt="NFT image"
+            />
+            <div
+              class="bg-[#00FFF8] h-0 opacity-0 group-hover:h-full group-hover:opacity-60 absolute top-0 group-hover:w-full rounded-3xl"
+            ></div>
+            <svg
+              width="48"
+              height="48"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              class="absolute opacity-0 group-hover:opacity-100 bottom-1/2 right-1/2 translate-x-1/2 translate-y-1/2"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <path d="M0 0h48v48H0z" />
+                <path
+                  d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z"
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                />
+              </g>
+            </svg>
+          </div>
         </div>
         <div>
-          <h1 class="text-3xl font-bold mb-6">Equilibrium #3429</h1>
+          <h1
+            class="text-3xl font-bold mb-6 hover:text-[#00FFF8] cursor-pointer"
+          >
+            Equilibrium #3429
+          </h1>
           <p class="text-2xl font-light mb-6 text-[#8bacda] leading-9">
             Our Equilibrium collection promotes balance and calm.
           </p>
@@ -43,7 +68,7 @@
                     fill="#00FFF8"
                   />
                 </svg>
-                <p class="text-cyan-300 text-2xl font-medium">0.041 ETH</p>
+                <p class="text-[#00FFF8] text-2xl font-medium">0.041 ETH</p>
               </div>
               <div class="flex items-center gap-3">
                 <svg
@@ -68,7 +93,10 @@
               alt="profile image"
             />
             <p class="text-[#8bacda] text-xl font-normal">
-              Creation of <span class="text-white">Jules Wyvern</span>
+              Creation of
+              <span class="text-white hover:text-[#00FFF8] cursor-pointer"
+                >Jules Wyvern</span
+              >
             </p>
           </div>
         </div>
