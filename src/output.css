@@ -544,15 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -561,52 +552,12 @@ video {
   display: flex;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
 .h-screen {
   height: 100vh;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .max-w-\[30rem\] {
@@ -625,16 +576,16 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-8 {
   gap: 2rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .rounded-3xl {
@@ -651,21 +602,8 @@ video {
   background-color: rgb(20 37 61 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-2xl {
@@ -678,8 +616,35 @@ video {
   line-height: 2.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.text-\[\#8bacda\] {
+  --tw-text-opacity: 1;
+  color: rgb(139 172 218 / var(--tw-text-opacity));
+}
+
+.text-cyan-300 {
+  --tw-text-opacity: 1;
+  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -687,36 +652,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:w-32 {
-    width: 8rem;
-  }
-
-  .md\:w-48 {
-    width: 12rem;
-  }
-}
-
 @media (min-width: 1024px) {
-  .lg\:w-48 {
-    width: 12rem;
-  }
-
-  .lg\:max-w-60 {
-    max-width: 15rem;
-  }
-
-  .lg\:max-w-80 {
-    max-width: 20rem;
-  }
-
   .lg\:max-w-\[30rem\] {
     max-width: 30rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:max-w-80 {
-    max-width: 20rem;
   }
 }
